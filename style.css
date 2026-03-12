@@ -6,6 +6,7 @@ background-color: aqua;
    display:grid;
    justify-content:center;
    color:blue;
+   background-color: blueviolet;
    border: solid 2px red;
 }
 
@@ -13,35 +14,49 @@ background-color: aqua;
    grid-row:1 / 2;
    grid-column: 1 / 4;
    color:blue;
+   background-color: blueviolet;
    border: solid 2px red;
+   height: 50px;
 }
 
 .nav {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
     color:blue;
+    background-color: blueviolet;
     border: solid 2px red;
+    max-height: 500px;
+    max-width: 200px;
 }
 
 .main {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     color:blue;
+    background-color: blueviolet;
     border: solid 2px red;
+    max-height: 500px;
+    max-width: 400px;
+    overflow-y: auto;
+    overflow-x: wrap;
 }
 
 .images{
    grid-row: 2 / 3;
    grid-column: 3 / 4;
    color:blue;
+   background-color: blueviolet;
    border: solid 2px red;
+   max-height: 500px;
 }
 
 .footer{
    grid-row: 3 / 4;
    grid-column: 1 / 4;
    color:blue;
+   background-color: blueviolet;
    border: solid 2px red;
+   max-height: 500px;
 }
 
 }
