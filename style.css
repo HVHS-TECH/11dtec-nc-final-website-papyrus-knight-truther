@@ -77,7 +77,7 @@ a:hover{
     color:rgb(43, 45, 135);
     background-color: rgb(91,	192,	235);
     border: solid 2px rgb(39, 83, 153);
-    max-height: 750px;
+    max-height: 500px;
     min-height: 600px;
     max-width: 1200px;
     overflow-wrap:break-word;
@@ -105,7 +105,7 @@ a:hover{
    grid-column: 1 / 4;
    color: rgb(43, 45, 135);
    background-color: rgb(	91,	192,	235);
-   border: solid 2px rgb(39, 83, 153);
+   border: solid 0.5px rgb(39, 83, 153);
    max-height: 1000px;
 }
 
