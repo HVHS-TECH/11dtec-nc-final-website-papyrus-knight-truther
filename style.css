@@ -4,6 +4,11 @@ body {
    background-repeat:repeat;
 font-size:larger;
 font-family: Arial, Helvetica, sans-serif;
+img{
+   width:100px;
+   height:100px;
+}
+
 
 a:link {
    text-decoration:none;
@@ -78,7 +83,7 @@ a:hover{
     color:rgb(43, 45, 135);
     background-color: rgb(91,	192,	235);
     border: solid 2px rgb(39, 83, 153);
-    padding: 4px;
+    padding: 5px;
     max-height: 500px;
     min-height: 600px;
     max-width: 1300px;
@@ -111,9 +116,12 @@ a:hover{
    max-height: 1000px;
 }
 
+  
+
 .smc{
  grid-row: 1 / 2;
  grid-column: 1 / 2;
+ max-width:200px;
 }
 .smc:hover{
    transform: scale(1.2);
@@ -122,6 +130,7 @@ a:hover{
 .MTT{
  grid-row: 1 / 2;
  grid-column: 2 / 3;
+ max-width:250px;
 }
 .MTT:hover{
    transform: scale(1.2);
@@ -130,6 +139,7 @@ a:hover{
 .August{
    grid-row: 1 / 2;
    grid-column: 3 / 4;
+   max-width:250px;
 }
 .August:hover{
    transform: scale(1.2);
@@ -138,6 +148,7 @@ a:hover{
 .Seb{
    grid-row: 2 / 3;
    grid-column: 1 / 2;
+   max-width:250px;
 }
 .Seb:hover{
    transform: scale(1.2);
@@ -146,6 +157,7 @@ a:hover{
 .Susie{
    grid-row: 2 / 3;
    grid-column: 2 / 3;
+   max-width:250px;
 }
 .Susie:hover{
    transform: scale(1.2);
@@ -154,6 +166,8 @@ a:hover{
 .Elliot{
    grid-row: 2 / 3;
    grid-column: 3 / 4;
+   max-width:250px;
+   max-height: 250px;
 }
 .Elliot:hover{
    transform: scale(1.2);
@@ -162,6 +176,8 @@ a:hover{
 .Yukirai{
    grid-row: 3 / 4;
    grid-column: 1 / 2;
+   max-width:250px;
+   max-height:250px;
 }
 
 .Yukirai:hover{
