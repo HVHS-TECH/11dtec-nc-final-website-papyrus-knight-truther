@@ -115,35 +115,57 @@ a:hover{
  grid-row: 1 / 2;
  grid-column: 1 / 2;
 }
+.smc:hover{
+   transform: scale(1.2);
+}
 
 .MTT{
  grid-row: 1 / 2;
  grid-column: 2 / 3;
+}
+.MTT:hover{
+   transform: scale(1.2);
 }
 
 .August{
    grid-row: 1 / 2;
    grid-column: 3 / 4;
 }
+.August:hover{
+   transform: scale(1.2);
+}
 
 .Seb{
    grid-row: 2 / 3;
    grid-column: 1 / 2;
+}
+.Seb:hover{
+   transform: scale(1.2);
 }
 
 .Susie{
    grid-row: 2 / 3;
    grid-column: 2 / 3;
 }
+.Susie:hover{
+   transform: scale(1.2);
+}
 
 .Elliot{
    grid-row: 2 / 3;
    grid-column: 3 / 4;
 }
+.Elliot:hover{
+   transform: scale(1.2);
+}
 
 .Yukirai{
    grid-row: 3 / 4;
    grid-column: 1 / 2;
+}
+
+.Yukirai:hover{
+   transform: scale(1.2);
 }
 
 
