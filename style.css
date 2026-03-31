@@ -72,14 +72,16 @@ a:hover{
 }
 
 .main {
+   display:grid;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     color:rgb(43, 45, 135);
     background-color: rgb(91,	192,	235);
     border: solid 2px rgb(39, 83, 153);
+    padding: 4px;
     max-height: 500px;
     min-height: 600px;
-    max-width: 1200px;
+    max-width: 1300px;
     overflow-wrap:break-word;
     overflow-x: hidden;
     overflow-y: auto;
@@ -108,5 +110,41 @@ a:hover{
    border: solid 0.5px rgb(39, 83, 153);
    max-height: 1000px;
 }
+
+.smc{
+ grid-row: 1 / 2;
+ grid-column: 1 / 2;
+}
+
+.MTT{
+ grid-row: 1 / 2;
+ grid-column: 2 / 3;
+}
+
+.August{
+   grid-row: 1 / 2;
+   grid-column: 3 / 4;
+}
+
+.Seb{
+   grid-row: 2 / 3;
+   grid-column: 1 / 2;
+}
+
+.Susie{
+   grid-row: 2 / 3;
+   grid-column: 2 / 3;
+}
+
+.Elliot{
+   grid-row: 2 / 3;
+   grid-column: 3 / 4;
+}
+
+.Yukirai{
+   grid-row: 3 / 4;
+   grid-column: 1 / 2;
+}
+
 
 }
