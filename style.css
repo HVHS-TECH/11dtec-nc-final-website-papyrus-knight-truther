@@ -115,13 +115,14 @@ a:hover{
 }
 
 .footer{
+   font-size:smaller;
    grid-row: 3 / 4;
    grid-column: 1 / 4;
    color: rgb(43, 45, 135);
    
    background-color: rgb(	91,	192,	235);
    border: solid 0.5px rgb(39, 83, 153);
-   max-height: 1000px;
+   max-height: 300px;
 }
 
   
@@ -178,6 +179,33 @@ a:hover{
 
 .Elliot{
    grid-row: 2 / 3;
+   grid-column: 3 / 4;
+   border: dashed 2px;
+   padding:5px;
+   width:200px;
+   height: 200px;
+}
+
+.test1{
+   grid-row: 3 / 4;
+   grid-column: 1 / 2;
+   border: dashed 2px;
+   padding:5px;
+   width:200px;
+   height: 200px;
+}
+
+.test2{
+   grid-row: 3 / 4;
+   grid-column: 2 / 3;
+   border: dashed 2px;
+   padding:5px;
+   width:200px;
+   height: 200px;
+}
+
+.test3{
+   grid-row: 3 / 4;
    grid-column: 3 / 4;
    border: dashed 2px;
    padding:5px;
