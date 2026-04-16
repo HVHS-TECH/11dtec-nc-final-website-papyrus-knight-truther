@@ -9,11 +9,11 @@ body {
    background-repeat:repeat;
 font-size:larger;
 font-family: Arial, Helvetica, sans-serif;
+margin: auto 10px;
 img{
    width:100px;
-   max-height:100px;
+   height:100px;
 }
-
 
 a:link {
    text-decoration:underline;
@@ -108,18 +108,28 @@ a:hover{
    border: solid 2px rgb(39, 83, 153);
    max-height: 750px;
    max-width: 500px;
+
+   img{
+   width:200px;
+   height:200px;
+}
 }
 
 .ImgInt{
-   border: solid 2px rgb(39, 83, 153);
+transition: transform .2s;
 }
+
+.ImgInt:hover{
+    transform: scale(1.2);
+  }
+
 
 .footer{
    font-size:smaller;
    grid-row: 3 / 4;
    grid-column: 1 / 4;
    color: rgb(43, 45, 135);
-   
+   padding: 2px;
    background-color: rgb(	91,	192,	235);
    border: solid 0.5px rgb(39, 83, 153);
    max-height: 300px;
